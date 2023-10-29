@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/05/16/39/sunrise-8235461_1280.jpg');
+    background-position: center;
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+
+
+.countertimer{
+    display:flex;
+    text-transform: uppercase;
+}
+
+
+.countertimer>p {
+   padding:2rem;
+   /* background-color: mediumvioletred; */
+   font-size:2rem;
+   text-align:center;
+
+   
+
+}
+.countertimer>p>span{
+    display:block;
+    font-size:4rem;
+    color:black;
+   
+
+}
+h1{
+   
+}
